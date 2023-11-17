@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Palash/IdeaProjects/Wingify/src/test/java/testscripts/ValidateLoginTest.java">
+        <classes>
+            <class name="testscripts.ValidateLoginTest">
+                <methods>
+                    <include name="validateUserIsAbleToAccessUrlAndLandsOnTheLoginPage"/>
+                    <include name="validateLoginPageLogoVisibility"/>
+                    <include name="validateSocialMediaLoginIcons"/>
+                    <include name="validateUsernameAndPasswordIcon"/>
+                    <include name="validateUsernameAndPasswordFieldEnabled"/>
+                    <include name="validatePlaceholderIsVisible"/>
+                    <include name="validateLoginWithoutUsernameAndPassword"/>
+                    <include name="validateLoginWithoutPassword"/>
+                    <include name="validateLoginWithoutUsername"/>
+                    <include name="validateRememberMeFunctionality"/>
+                    <include name="validateLoginWithWhiteSpaces"/>
+                    <include name="validateLogin"/>
+                    <include name="validateTabAndEnterBtnWorking"/>
+                    <include name="validateAmountListSorted"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
