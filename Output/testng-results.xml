@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-25T12:30:26 IST" name="All Test Suite" finished-at="2023-03-25T12:31:35 IST" duration-ms="68991">
+    <groups>
+    </groups>
+    <test started-at="2023-03-25T12:30:26 IST" name="C:/Users/Palash/IdeaProjects/Wingify/src/test/java/testscripts/ValidateLoginTest.java" finished-at="2023-03-25T12:31:35 IST" duration-ms="68991">
+      <class name="testscripts.ValidateLoginTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:26 IST" name="beforeClass" finished-at="2023-03-25T12:30:26 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:26 IST" name="openBrowser" finished-at="2023-03-25T12:30:33 IST" duration-ms="7138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateUserIsAbleToAccessUrlAndLandsOnTheLoginPage()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:33 IST" name="validateUserIsAbleToAccessUrlAndLandsOnTheLoginPage" finished-at="2023-03-25T12:30:34 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserIsAbleToAccessUrlAndLandsOnTheLoginPage -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:34 IST" name="closeBrowser" finished-at="2023-03-25T12:30:42 IST" duration-ms="8203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserIsAbleToAccessUrlAndLandsOnTheLoginPage status=SUCCESS method=ValidateLoginTest.validateUserIsAbleToAccessUrlAndLandsOnTheLoginPage()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:42 IST" name="openBrowser" finished-at="2023-03-25T12:30:46 IST" duration-ms="3966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginPageLogoVisibility()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:46 IST" name="validateLoginPageLogoVisibility" finished-at="2023-03-25T12:30:46 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageLogoVisibility -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:46 IST" name="closeBrowser" finished-at="2023-03-25T12:30:46 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginPageLogoVisibility status=SUCCESS method=ValidateLoginTest.validateLoginPageLogoVisibility()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:46 IST" name="openBrowser" finished-at="2023-03-25T12:30:50 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateSocialMediaLoginIcons()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:50 IST" name="validateSocialMediaLoginIcons" finished-at="2023-03-25T12:30:50 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSocialMediaLoginIcons -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:50 IST" name="closeBrowser" finished-at="2023-03-25T12:30:50 IST" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSocialMediaLoginIcons status=SUCCESS method=ValidateLoginTest.validateSocialMediaLoginIcons()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:50 IST" name="openBrowser" finished-at="2023-03-25T12:30:54 IST" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateUsernameAndPasswordIcon()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:54 IST" name="validateUsernameAndPasswordIcon" finished-at="2023-03-25T12:30:54 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsernameAndPasswordIcon -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:54 IST" name="closeBrowser" finished-at="2023-03-25T12:30:54 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUsernameAndPasswordIcon status=SUCCESS method=ValidateLoginTest.validateUsernameAndPasswordIcon()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:54 IST" name="openBrowser" finished-at="2023-03-25T12:30:57 IST" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateUsernameAndPasswordFieldEnabled()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:57 IST" name="validateUsernameAndPasswordFieldEnabled" finished-at="2023-03-25T12:30:57 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsernameAndPasswordFieldEnabled -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:57 IST" name="closeBrowser" finished-at="2023-03-25T12:30:57 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUsernameAndPasswordFieldEnabled status=SUCCESS method=ValidateLoginTest.validateUsernameAndPasswordFieldEnabled()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:30:57 IST" name="openBrowser" finished-at="2023-03-25T12:31:00 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validatePlaceholderIsVisible()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:00 IST" name="validatePlaceholderIsVisible" finished-at="2023-03-25T12:31:00 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlaceholderIsVisible -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:00 IST" name="closeBrowser" finished-at="2023-03-25T12:31:01 IST" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePlaceholderIsVisible status=SUCCESS method=ValidateLoginTest.validatePlaceholderIsVisible()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:01 IST" name="openBrowser" finished-at="2023-03-25T12:31:04 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginWithoutUsernameAndPassword()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:04 IST" name="validateLoginWithoutUsernameAndPassword" finished-at="2023-03-25T12:31:04 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithoutUsernameAndPassword -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:04 IST" name="closeBrowser" finished-at="2023-03-25T12:31:04 IST" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginWithoutUsernameAndPassword status=SUCCESS method=ValidateLoginTest.validateLoginWithoutUsernameAndPassword()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:04 IST" name="openBrowser" finished-at="2023-03-25T12:31:07 IST" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginWithoutPassword()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:07 IST" name="validateLoginWithoutPassword" finished-at="2023-03-25T12:31:08 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithoutPassword -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:08 IST" name="closeBrowser" finished-at="2023-03-25T12:31:08 IST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginWithoutPassword status=SUCCESS method=ValidateLoginTest.validateLoginWithoutPassword()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:08 IST" name="openBrowser" finished-at="2023-03-25T12:31:11 IST" duration-ms="2769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginWithoutUsername()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:11 IST" name="validateLoginWithoutUsername" finished-at="2023-03-25T12:31:11 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithoutUsername -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:11 IST" name="closeBrowser" finished-at="2023-03-25T12:31:11 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginWithoutUsername status=SUCCESS method=ValidateLoginTest.validateLoginWithoutUsername()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:11 IST" name="openBrowser" finished-at="2023-03-25T12:31:14 IST" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateRememberMeFunctionality()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:14 IST" name="validateRememberMeFunctionality" finished-at="2023-03-25T12:31:16 IST" duration-ms="1825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRememberMeFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:16 IST" name="closeBrowser" finished-at="2023-03-25T12:31:16 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRememberMeFunctionality status=SUCCESS method=ValidateLoginTest.validateRememberMeFunctionality()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:16 IST" name="openBrowser" finished-at="2023-03-25T12:31:20 IST" duration-ms="3413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLoginWithWhiteSpaces()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:20 IST" name="validateLoginWithWhiteSpaces" finished-at="2023-03-25T12:31:21 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithWhiteSpaces -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:21 IST" name="closeBrowser" finished-at="2023-03-25T12:31:21 IST" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginWithWhiteSpaces status=SUCCESS method=ValidateLoginTest.validateLoginWithWhiteSpaces()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:21 IST" name="openBrowser" finished-at="2023-03-25T12:31:23 IST" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateLogin()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:23 IST" name="validateLogin" finished-at="2023-03-25T12:31:24 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:24 IST" name="closeBrowser" finished-at="2023-03-25T12:31:24 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLogin status=SUCCESS method=ValidateLoginTest.validateLogin()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:24 IST" name="openBrowser" finished-at="2023-03-25T12:31:28 IST" duration-ms="3857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateTabAndEnterBtnWorking()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:28 IST" name="validateTabAndEnterBtnWorking" finished-at="2023-03-25T12:31:29 IST" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTabAndEnterBtnWorking -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:29 IST" name="closeBrowser" finished-at="2023-03-25T12:31:29 IST" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTabAndEnterBtnWorking status=SUCCESS method=ValidateLoginTest.validateTabAndEnterBtnWorking()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:29 IST" name="openBrowser" finished-at="2023-03-25T12:31:33 IST" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateAmountListSorted()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:33 IST" name="validateAmountListSorted" finished-at="2023-03-25T12:31:35 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAmountListSorted -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc]" started-at="2023-03-25T12:31:35 IST" name="closeBrowser" finished-at="2023-03-25T12:31:35 IST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAmountListSorted status=SUCCESS method=ValidateLoginTest.validateAmountListSorted()[pri:0, instance:testscripts.ValidateLoginTest@38b27cdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscripts.ValidateLoginTest -->
+    </test> <!-- C:/Users/Palash/IdeaProjects/Wingify/src/test/java/testscripts/ValidateLoginTest.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
